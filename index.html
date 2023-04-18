@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <!-- Stylesheet-->
-  <link rel="stylesheet" href="styles.css">
-  <title>Frontend Mentor | Stats preview card component</title>
-
-</head>
-<body>
-  <main>
-    <div class="img-container">
-      <img src="images/image-header-mobile.jpg" alt="image-header">
-    </div>
-    
-    <div class="content-container">
-      <div class="desc-container">
-      <h1>Get <span class="highlight">insights</span>  that help your business grow.</h1>
-      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-        experience, and overall efficiency.</p>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Stylesheet-->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main>
+      <div class="img-container">
+        <source
+          media="(max-width: 1023px)"
+          srcset="images/image-header-mobile.jpg"
+        />
+        <source
+          media="(min-width: 1024px)"
+          srcset="images/image-header-desktop.jpg"
+        />
+        <img src="images/image-header-mobile.jpg" alt="image-header" />
       </div>
-    
-      <div class="stat-container">
-        <div class="stats-inner">
-          <h2>10k+</h2>
-          <p>companies</p> 
-        </div>
-        <div class="stats-inner">
-          <h2>314</h2>
-          <p>templates</p> 
-        </div>
-        <div class="stats-inner">
-          <h2>12m+</h2>
-          <p>queries</p> 
+
+      <div class="content-container">
+        <h1>
+          Get <span class="highlight">insights</span> that help your business
+          grow.
+        </h1>
+        <p>
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+
+        <div class="stat-container">
+          <div class="stats-inner">
+            <h2>10k+</h2>
+            <p>companies</p>
+          </div>
+          <div class="stats-inner">
+            <h2>314</h2>
+            <p>templates</p>
+          </div>
+          <div class="stats-inner">
+            <h2>12m+</h2>
+            <p>queries</p>
+          </div>
         </div>
       </div>
-    </div>
-  </main>
+    </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://github.com/nFinityV2">Nathan Soh</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/nFinityV2">Nathan Soh</a>.
+    </div>
+  </body>
 </html>
