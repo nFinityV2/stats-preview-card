@@ -66,7 +66,6 @@ img {
 .stat-container {
     font-family: var(--font-secondary);
     text-transform: uppercase;
-    margin-bottom: 1.5em;
 }
 
 /* Classes */
@@ -90,7 +89,7 @@ img {
         flex-direction: row-reverse;
         text-align: left;
         width: 1024px;
-        height: 400px;
+        height: 405px;
     }
 
     img {
@@ -109,6 +108,5 @@ img {
     .stat-container {
         display: flex;
         justify-content: space-between;
-        margin-right: 2.5em;
     }
 }
